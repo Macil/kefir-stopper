@@ -1,6 +1,6 @@
 {
   "name": "kefir-stopper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small Kefir utility for signifying an event has happened",
   "main": "js/index.js",
   "scripts": {
@@ -11,18 +11,22 @@
     "type": "git",
     "url": "https://github.com/AgentME/kefir-stopper.git"
   },
+  "keywords": [
+    "kefir",
+    "kefir.js"
+  ],
   "bugs": {
     "url": "https://github.com/AgentME/kefir-stopper/issues"
   },
   "author": "Chris Cowan <agentme49@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "kefir": "^2.0.0"
   },
   "devDependencies": {
     "babel": "^5.2.17",
-    "kefir": "^2.0.0"
+    "kefir": "^2.0.0",
+    "mocha": "^2.2.4"
   }
 }
