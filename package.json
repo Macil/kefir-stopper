@@ -1,6 +1,6 @@
 {
   "name": "kefir-stopper",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Small Kefir utility for signifying an event has happened",
   "main": "js/index.js",
   "scripts": {
@@ -22,11 +22,11 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "kefir": "^2.0.0"
+    "kefir": "^3.0.0"
   },
   "devDependencies": {
-    "babel": "^5.2.17",
-    "kefir": "^2.0.0",
-    "mocha": "^2.2.4"
+    "babel": "^5.8.23",
+    "kefir": "^3.0.0",
+    "mocha": "^2.3.3"
   }
 }
