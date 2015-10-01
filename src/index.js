@@ -1,4 +1,4 @@
-import Kefir from 'kefir';
+const Kefir = require('kefir');
 
 export default function kefirStopper() {
   let emitter = null;
