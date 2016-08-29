@@ -1,5 +1,8 @@
 # kefirStopper
 
+[![Circle CI](https://circleci.com/gh/AgentME/kefir-stopper.svg?style=shield)](https://circleci.com/gh/AgentME/kefir-stopper)
+[![npm version](https://badge.fury.io/js/kefir-stopper.svg)](https://badge.fury.io/js/kefir-stopper)
+
 This is a small javascript library for use with the Kefir library which creates
 a Kefir property with a destroy method which causes it to emit an event and end
 immediately. This works well with Kefir's `takeUntilBy` method.
