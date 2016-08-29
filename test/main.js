@@ -8,15 +8,15 @@ describe('kefirStopper', function() {
     let i = 0;
     stopper.onAny(event => {
       assert.strictEqual(stopper.stopped, true);
-      switch(++i) {
-        case 1:
-          assert.strictEqual(event.type, 'value');
-          break;
-        case 2:
-          assert.strictEqual(event.type, 'end');
-          break;
-        default:
-          throw new Error("Should not happen");
+      switch (++i) {
+      case 1:
+        assert.strictEqual(event.type, 'value');
+        break;
+      case 2:
+        assert.strictEqual(event.type, 'end');
+        break;
+      default:
+        throw new Error('Should not happen');
       }
     });
     assert.strictEqual(stopper.stopped, false);
@@ -33,15 +33,15 @@ describe('kefirStopper', function() {
     assert.strictEqual(stopper.stopped, true);
     stopper.onAny(event => {
       assert.strictEqual(stopper.stopped, true);
-      switch(++i) {
-        case 1:
-          assert.strictEqual(event.type, 'value');
-          break;
-        case 2:
-          assert.strictEqual(event.type, 'end');
-          break;
-        default:
-          throw new Error("Should not happen");
+      switch (++i) {
+      case 1:
+        assert.strictEqual(event.type, 'value');
+        break;
+      case 2:
+        assert.strictEqual(event.type, 'end');
+        break;
+      default:
+        throw new Error('Should not happen');
       }
     });
     assert.strictEqual(i, 2);
@@ -52,15 +52,15 @@ describe('kefirStopper', function() {
     let i = 0;
     stopper.onAny(event => {
       assert.strictEqual(stopper.stopped, true);
-      switch(++i) {
-        case 1:
-          assert.strictEqual(event.type, 'value');
-          break;
-        case 2:
-          assert.strictEqual(event.type, 'end');
-          break;
-        default:
-          throw new Error("Should not happen");
+      switch (++i) {
+      case 1:
+        assert.strictEqual(event.type, 'value');
+        break;
+      case 2:
+        assert.strictEqual(event.type, 'end');
+        break;
+      default:
+        throw new Error('Should not happen');
       }
     });
     assert.strictEqual(stopper.stopped, false);
