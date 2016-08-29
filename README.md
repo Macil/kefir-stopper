@@ -31,3 +31,8 @@ Kefir.later(5000, null)
 
 A stopper object also has a `stopped` property which is a boolean that starts
 as false and is set to true once its `destroy` method is called.
+
+## Types
+
+[Flow](https://flowtype.org/) type declarations for this module are included!
+If you are using Flow, they won't require any configuration to use.

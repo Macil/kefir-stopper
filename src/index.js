@@ -1,6 +1,13 @@
+/* @flow */
+
 const Kefir = require('kefir');
 
-export default function kefirStopper() {
+export type Stopper = Kefir.Property<null>&{
+  stopped: boolean;
+  destroy(): void;
+};
+
+export default function kefirStopper(): Stopper {
   let emitter = null;
 
   function end() {
@@ -18,7 +25,7 @@ export default function kefirStopper() {
     }
   });
 
-  const stopper = stream.toProperty();
+  const stopper: Stopper = (stream.toProperty(): any);
   stopper.stopped = false;
   stopper.destroy = end;
   return stopper;

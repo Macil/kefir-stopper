@@ -4,8 +4,9 @@
   "description": "Small Kefir utility for signifying an event has happened",
   "main": "js/index.js",
   "scripts": {
-    "prepublish": "babel -s inline -d js/ src/",
-    "test": "npm run lint && mocha",
+    "prepublish": "babel -s inline -d js/ src/ && flow-copy-source -v src js",
+    "test": "npm run lint && npm run flow_check && mocha",
+    "flow_check": "flow check",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
   },
@@ -24,7 +25,7 @@
   "license": "MIT",
   "dependencies": {},
   "peerDependencies": {
-    "kefir": "^3.0.0"
+    "kefir": "^3.5.1"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
@@ -34,7 +35,9 @@
     "babel-preset-es2015": "^6.14.0",
     "babel-register": "^6.14.0",
     "eslint": "^3.4.0",
-    "kefir": "^3.0.0",
+    "flow-bin": "^0.31.1",
+    "flow-copy-source": "^1.1.0",
+    "kefir": "^3.5.1",
     "mocha": "^3.0.2"
   }
 }
