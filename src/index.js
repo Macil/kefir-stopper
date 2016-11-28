@@ -27,6 +27,6 @@ export default function kefirStopper(): Stopper {
 
   const stopper: Stopper = (stream.toProperty(): any);
   stopper.stopped = false;
-  stopper.destroy = end;
+  (stopper:any).destroy = end;
   return stopper;
 }
