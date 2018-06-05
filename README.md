@@ -1,15 +1,14 @@
 # kefirStopper
 
-[![Circle CI](https://circleci.com/gh/AgentME/kefir-stopper.svg?style=shield)](https://circleci.com/gh/AgentME/kefir-stopper)
-[![npm version](https://badge.fury.io/js/kefir-stopper.svg)](https://badge.fury.io/js/kefir-stopper)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/kefir-stopper/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/kefir-stopper.svg?style=flat)](https://www.npmjs.com/package/kefir-stopper) [![CircleCI Status](https://circleci.com/gh/AgentME/kefir-stopper.svg?style=shield)](https://circleci.com/gh/AgentME/kefir-stopper)
 
 This is a small javascript library for use with the Kefir library which creates
 a Kefir property with a destroy method which causes it to emit an event and end
 immediately. This works well with Kefir's `takeUntilBy` method.
 
-Works with Node.js and CommonJS bundlers like Browserify.
+Works with Node.js and CommonJS bundlers like Browserify and Webpack.
 
-    npm install --save kefir-stopper
+    yarn add kefir-stopper
 
 ## Usage
 
