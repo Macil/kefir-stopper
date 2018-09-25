@@ -1,3 +1,7 @@
+## 2.2.0 (2018-09-25)
+
+* Added TypeScript type definitions.
+
 ## 2.1.1 (2016-11-28)
 
 * Updated Flow type definitions for Flow 0.36.
