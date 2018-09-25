@@ -1,6 +1,6 @@
 # kefirStopper
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/kefir-stopper/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/kefir-stopper.svg?style=flat)](https://www.npmjs.com/package/kefir-stopper) [![CircleCI Status](https://circleci.com/gh/AgentME/kefir-stopper.svg?style=shield)](https://circleci.com/gh/AgentME/kefir-stopper) [![Greenkeeper badge](https://badges.greenkeeper.io/AgentME/kefir-stopper.svg)](https://greenkeeper.io/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Macil/kefir-stopper/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/kefir-stopper.svg?style=flat)](https://www.npmjs.com/package/kefir-stopper) [![CircleCI Status](https://circleci.com/gh/Macil/kefir-stopper.svg?style=shield)](https://circleci.com/gh/Macil/kefir-stopper) [![Greenkeeper badge](https://badges.greenkeeper.io/Macil/kefir-stopper.svg)](https://greenkeeper.io/)
 
 This is a small javascript library for use with the Kefir library which creates
 a Kefir property with a destroy method which causes it to emit an event and end

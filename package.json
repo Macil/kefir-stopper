@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AgentME/kefir-stopper.git"
+    "url": "https://github.com/Macil/kefir-stopper.git"
   },
   "keywords": [
     "kefir",
     "kefir.js"
   ],
   "bugs": {
-    "url": "https://github.com/AgentME/kefir-stopper/issues"
+    "url": "https://github.com/Macil/kefir-stopper/issues"
   },
   "author": "Chris Cowan <agentme49@gmail.com>",
   "license": "MIT",
