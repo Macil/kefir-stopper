@@ -1,6 +1,6 @@
 {
   "name": "kefir-stopper",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Small Kefir utility for signifying an event has happened",
   "main": "js/index.js",
   "sideEffects": false,
