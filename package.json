@@ -6,7 +6,7 @@
   "sideEffects": false,
   "scripts": {
     "prepare": "rimraf js/ && babel -s inline -d js/ src/ && flow-copy-source -v src js",
-    "test": "yarn run lint && yarn run flow_check && mocha",
+    "test": "yarn run lint && yarn run flow_check && mocha && tsc",
     "flow_check": "flow check",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix"
@@ -34,6 +34,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-flow": "^7.0.0",
     "@babel/register": "^7.0.0",
+    "@types/kefir": "^3.7.0",
     "babel-eslint": "^10.0.0",
     "babel-plugin-add-module-exports": "^1.0.0",
     "eslint": "^5.0.0",
@@ -41,7 +42,8 @@
     "flow-copy-source": "^2.0.0",
     "kefir": "^3.5.1",
     "mocha": "^5.2.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "typescript": "^3.0.3"
   },
   "greenkeeper": {
     "ignore": [
