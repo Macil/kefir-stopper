@@ -3,6 +3,7 @@
   "version": "2.1.1",
   "description": "Small Kefir utility for signifying an event has happened",
   "main": "js/index.js",
+  "sideEffects": false,
   "scripts": {
     "prepare": "rimraf js/ && babel -s inline -d js/ src/ && flow-copy-source -v src js",
     "test": "yarn run lint && yarn run flow_check && mocha",
